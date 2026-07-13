@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vasu Cool 🧿🌸 Bracelet | Mindfully Crafted</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-dim": "#dcdad3",
+                        "surface-variant": "#e5e2db",
+                        "tertiary-fixed-dim": "#e9c349",
+                        "tertiary-fixed": "#ffe088",
+                        "error": "#ba1a1a",
+                        "surface": "#fcf9f2",
+                        "on-surface": "#1c1c18",
+                        "on-secondary-container": "#586753",
+                        "outline": "#86736d",
+                        "inverse-surface": "#31312c",
+                        "error-container": "#ffdad6",
+                        "on-primary-fixed": "#380d01",
+                        "on-surface-variant": "#53433e",
+                        "surface-container-low": "#f6f3ec",
+                        "on-primary-fixed-variant": "#6f3722",
+                        "on-tertiary": "#ffffff",
+                        "primary-container": "#a6634b",
+                        "inverse-primary": "#ffb59c",
+                        "secondary": "#53624f",
+                        "on-background": "#1c1c18",
+                        "primary": "#894b35",
+                        "on-error-container": "#93000a",
+                        "surface-bright": "#fcf9f2",
+                        "secondary-fixed-dim": "#bbcbb3",
+                        "on-primary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "background": "#fcf9f2",
+                        "secondary-fixed": "#d7e7cf",
+                        "on-primary-container": "#fffbff",
+                        "surface-container-high": "#ebe8e1",
+                        "surface-tint": "#8c4e37",
+                        "primary-fixed": "#ffdbcf",
+                        "primary-fixed-dim": "#ffb59c",
+                        "outline-variant": "#d8c2bb",
+                        "surface-container": "#f1eee7",
+                        "on-tertiary-container": "#4e3d00",
+                        "on-secondary-fixed": "#121f10",
+                        "inverse-on-surface": "#f3f0e9",
+                        "tertiary": "#735c00",
+                        "surface-container-highest": "#e5e2db",
+                        "on-secondary": "#ffffff",
+                        "secondary-container": "#d4e5cc",
+                        "on-secondary-fixed-variant": "#3c4b38",
+                        "on-tertiary-fixed-variant": "#574500",
+                        "on-error": "#ffffff",
+                        "tertiary-container": "#cba72f",
+                        "on-tertiary-fixed": "#241a00"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "margin-desktop": "64px",
+                        "container-max": "1200px",
+                        "margin-mobile": "24px",
+                        "base": "8px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Noto Serif"],
+                        "headline-lg-mobile": ["Noto Serif"],
+                        "headline-md": ["Noto Serif"],
+                        "body-lg": ["Manrope"],
+                        "label-md": ["Manrope"],
+                        "body-md": ["Manrope"],
+                        "headline-lg": ["Noto Serif"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-lg-mobile": ["28px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "label-md": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .text-glow {
+            text-shadow: 0 0 20px rgba(137, 75, 53, 0.15);
+        }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #fcf9f2; }
+        ::-webkit-scrollbar-thumb { background: #d8c2bb; border-radius: 4px; }
+        .glass-card {
+            background: rgba(252, 249, 242, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(216, 194, 187, 0.3);
+        }
+        .image-reveal {
+            transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .image-reveal:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- Navigation Shell -->
+<header class="fixed top-0 w-full z-50 bg-surface/90 dark:bg-surface-dim/90 backdrop-blur-md border-b border-outline-variant/30 h-20">
+<nav class="flex justify-between items-center px-margin-desktop max-w-container-max mx-auto h-full">
+<div class="font-display-lg text-headline-md text-primary flex items-center gap-2">
+<img alt="Vasu Cool Logo" class="w-10 h-10 object-contain rounded-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYMvZvaIzJc90AobypsY-ePCGq1hhNXE-OjDxO7gsx3GtUCNa_9Nt92qeSJrZmeR5624S2dWyM2AshpX5h0yVgyxImDTITFZv_cf1CxvgivXStKKTkcSJw71y03ZPtaPiDb1I3J5h4hsgMATjJYE-FOxZ0fKyISp8fIb7XAn5gP9UB-ww9TWiJD9W7f_1bl0CS7koN36J5xsrLkZVSd3HVakeqUZOXf6UQc08rSQEFradXabyNelav1FwWOj81K4OfoZ6xB5TfV54r"/>
+<span class="hidden md:inline">Vasu Cool 🧿🌸</span>
+</div>
+<div class="hidden md:flex items-center gap-10">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-body-md transition-colors duration-300" href="#handmade">Handmade</a>
+<a class="text-on-surface-variant font-body-md hover:text-primary transition-colors duration-300" href="#stones">Stones</a>
+<a class="text-on-surface-variant font-body-md hover:text-primary transition-colors duration-300" href="#pricing">Pricing</a>
+<a class="text-on-surface-variant font-body-md hover:text-primary transition-colors duration-300" href="https://wa.me/918306814934" target="_blank">Inquiry</a>
+</div>
+<a class="px-6 py-2.5 bg-primary text-on-primary font-label-md rounded-full scale-95 active:scale-90 transition-transform shadow-sm hover:shadow-md" href="https://wa.me/918306814934" target="_blank">
+                Inquiry
+            </a>
+</nav>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center pt-20 overflow-hidden" id="handmade">
+<div class="absolute inset-0 z-0 opacity-10 pointer-events-none">
+<div class="absolute top-1/4 left-1/4 w-96 h-96 bg-primary-container rounded-full blur-[120px]"></div>
+<div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-tertiary-container rounded-full blur-[120px]"></div>
+</div>
+<div class="max-w-container-max mx-auto px-margin-desktop w-full grid md:grid-cols-2 gap-16 items-center z-10">
+<div class="space-y-8">
+<div class="space-y-4">
+<span class="inline-flex items-center gap-2 font-label-md text-primary tracking-widest uppercase">
+<span class="h-px w-8 bg-primary"></span>
+                            Artisanal Craft
+                        </span>
+<h1 class="font-display-lg text-display-lg text-on-surface leading-tight">
+                            Handmade with <br/>
+<span class="text-primary italic">Intention</span>
+</h1>
+<p class="font-body-lg text-on-surface-variant max-w-md">
+                            Every bead is selected for its unique energy and aesthetic, creating more than just jewelry—a personal talisman.
+                        </p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="px-10 py-4 bg-primary text-on-primary font-label-md rounded-full text-center hover:bg-primary/90 transition-all shadow-lg hover:shadow-xl active:scale-95" href="https://wa.me/918306814934" target="_blank">
+                            Inquiry Now
+                        </a>
+<a class="px-10 py-4 border border-outline text-on-surface font-label-md rounded-full text-center hover:bg-surface-container transition-all active:scale-95" href="#stones">
+                            The Collection
+                        </a>
+</div>
+</div>
+<div class="relative group">
+<div class="aspect-[4/5] rounded-xl overflow-hidden shadow-2xl relative z-10">
+<img class="w-full h-full object-cover image-reveal" data-alt="A macro photograph of an artisanal stone bead bracelet resting on a textured handmade paper surface. The soft morning light highlights the natural minerals and polished textures of the diverse stones. The background is a minimalist, warm sand-colored studio setting. The overall mood is peaceful, tactile, and premium, reflecting mindful craftsmanship." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuHARbdPa_dA0HgdrWXYgzybTE69814w0xotqSJXk1u4xccx7ftAWF9dK8vs3PCU08iCwNNQ_euuSLTEu0jQL19xD6N6xlLM9v6ZnmY48H3Pxve2z7N0Qdi7djLmlci6eVr69FUDMoY1LNuqczdiZyyW0Uw3qJ3OZa59SbSsAgA-CzoogSY0ontB93jdjtioKDzLJlrYxplgFtWvzZrUcL1DrxutWHFcYVsn2FSdFb_PMH8PnaAYiVmwnY4STnVU-Dpm0m0PlBJXu0"/>
+</div>
+<div class="absolute -bottom-8 -left-8 glass-card p-6 rounded-xl shadow-lg z-20 max-w-[200px]">
+<p class="font-label-md text-primary uppercase mb-1">Authentic</p>
+<p class="font-body-md text-on-surface">100% Natural Semiprecious Stones</p>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-32 bg-surface-container-low" id="stones">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="flex flex-col items-center text-center max-w-2xl mx-auto mb-20">
+<h2 class="font-display-lg text-headline-lg text-on-surface mb-6">The Soul of the Stone</h2>
+<p class="font-body-lg text-on-surface-variant">
+                        Vasu Cool bracelets are mindfully crafted for those who find beauty in the raw, natural world. Each piece tells a story of geological patience and human touch, balancing rugged textures with refined finishes.
+                    </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="space-y-6">
+<div class="aspect-square bg-surface-container rounded-xl overflow-hidden">
+<img class="w-full h-full object-cover hover:scale-110 transition-transform duration-700" data-alt="Close up of various semi-precious stone beads including tiger eye, lava rock, and matte onyx laid out on a clean white surface. Soft studio lighting creates gentle shadows. Minimalist composition with a focus on earth tones like terracotta, sage, and deep black." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCf0rGa2vnCdFV0lx9d6MR_2H-ZqppQ1tCPnzmmnXLE9yhqtYgSTlDcN9oeF6bqIJZpmTf_8v8Fahu3sRSmI9GUprq_pXsU3KXUf0BnDguAnwAvVed8YnHIJmouo1di07aQsagDBUcgxPw0mCPOGrxm_JCsQidYN2vnydWB9n9AM5YVPx1eJtWzwWfxIa9kdatPVMou-np5G76oSAzegU3DcCVwKkpbVUGJQitq5Seypsp5QhSPP_1zqmaG_ItGyekaItUBmFdkL25D"/>
+</div>
+<div class="px-2">
+<h3 class="font-headline-md text-on-surface mb-2">Natural Selection</h3>
+<p class="font-body-md text-on-surface-variant">Carefully sourced beads that retain their organic character and therapeutic vibrations.</p>
+</div>
+</div>
+<div class="space-y-6 mt-12">
+<div class="aspect-square bg-surface-container rounded-xl overflow-hidden">
+<img class="w-full h-full object-cover hover:scale-110 transition-transform duration-700" data-alt="Artisan hands carefully threading natural stone beads onto a high-quality elastic cord. The workshop setting is bright and clean with wooden textures and natural light. Professional photography focusing on the delicate process of jewelry making." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfOnPbseGygG037ME8T_MEPcGDztyhGuiuVZ4YCd5lwcdhvpSXrfwoR63M7HHLie1n9dOVR-_i7zTt63VQVbYwCoz8ZYrWJYDtPop87dncTYsJDl0BolYe6NQF0E1djCHS3NkPtGYstKRlXjvoJWrkmzBNGgLTP4RqQhnrHeeXzSa0Spb4qThwRsRkYR_3nG83L29-EXehwA3rsux5NvQM2RMdlCLq8l4RG-eTew6_WLIBzM64edMPd77YUTBF51zlsonTAcPzpiqp"/>
+</div>
+<div class="px-2">
+<h3 class="font-headline-md text-on-surface mb-2">Artisan Threading</h3>
+<p class="font-body-md text-on-surface-variant">Precision crafting ensures durability while maintaining the delicate flow of the bracelet.</p>
+</div>
+</div>
+<div class="space-y-6">
+<div class="aspect-square bg-surface-container rounded-xl overflow-hidden">
+<img class="w-full h-full object-cover hover:scale-110 transition-transform duration-700" data-alt="A finished stone bead bracelet presented in a minimalist eco-friendly packaging box. The box is made of textured terracotta-colored paper. The scene is illuminated by soft, warm light creating an inviting and premium boutique feel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBS3va7PiHgh2GY74gpnOzjKAC24PuHkLYvdKbGQX1BR4AQtyo3ALgwPnQMz2-Vukgtv4OLi6CQa4g4ro-zXGu-lVX5_FK-xDSHtoT12k77Rd_0aAumKZZ8_MQLvjq3-bbToMmRwCjYwNUWQ0MvZGEQ4DR4K61bmAjlmWCRn1ETfMUnAXSD43yy29S9KE8p61ANR2Kg3c7N_Ot-PyPZyBZuPyIqW_NH2YWKBVfL7IXINLpYTbPx4LAKhNeExkQ32bLwsOmJNwX89VnS"/>
+</div>
+<div class="px-2">
+<h3 class="font-headline-md text-on-surface mb-2">Mindful Delivery</h3>
+<p class="font-body-md text-on-surface-variant">Packaged with care to ensure your intentions arrive safely at your doorstep.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Product & Pricing Section -->
+<section class="py-32" id="pricing">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="bg-surface-container-highest rounded-2xl p-12 md:p-20 flex flex-col md:flex-row gap-16 items-center">
+<div class="w-full md:w-1/2">
+<div class="aspect-[4/3] rounded-xl overflow-hidden bg-white shadow-xl relative overflow-hidden group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" data-alt="A lifestyle shot of three different stone bead bracelets stacked together on a wrist. The model is wearing a linen shirt in a neutral beige tone. The setting is a bright, sunlit garden with soft out-of-focus greenery. High-end lifestyle photography aesthetic with warm earth tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmhKhjm0dgYny-6M7MvPs3gf8C1OJ1dFEnNLxHM1ZoeyWzIPEpmu1zcBK_1weQIe6BmG1Tj_Ru_hFjji5C_AAAXtVhK-fstVEOn4sUirzA3Jn70s-GttRSn5oAm_QsoUf5FMJK7dCo7fh0I1939xIYxt3FshdXVWu8BI65Bz4gl-vvSUS3e_1NsdIJn2cnlL_mgxmAJ_35wKlUfeBNWsAMyRxqQXykKOLdgZwSd7_KWUHPDJDKbqEbrrk8DeHB6tJU0kjhqGcdFsfr"/>
+<div class="absolute top-4 right-4 bg-tertiary text-on-tertiary px-4 py-1.5 font-label-md rounded-full">
+                                Signature Collection
+                            </div>
+</div>
+</div>
+<div class="w-full md:w-1/2 space-y-8">
+<div class="space-y-2">
+<h2 class="font-display-lg text-headline-lg text-on-surface">The Signature Bracelet</h2>
+<div class="flex items-center gap-4">
+<span class="text-display-lg font-display-lg text-primary">₹650</span>
+<span class="px-3 py-1 bg-secondary-container text-on-secondary-container font-label-md rounded text-xs">BEST VALUE</span>
+</div>
+</div>
+<div class="space-y-4">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">local_shipping</span>
+<span class="font-body-md text-on-surface">Cash on Delivery Available</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-body-md text-on-surface">Premium Grade Natural Stones</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">handyman</span>
+<span class="font-body-md text-on-surface">Individually Hand-Knotted</span>
+</div>
+</div>
+<div class="pt-4">
+<div class="flex flex-wrap gap-3 mb-8">
+<span class="px-4 py-1.5 bg-surface rounded-full border border-outline-variant text-label-md text-on-surface-variant">Lava Rock</span>
+<span class="px-4 py-1.5 bg-surface rounded-full border border-outline-variant text-label-md text-on-surface-variant">Onyx</span>
+<span class="px-4 py-1.5 bg-surface rounded-full border border-outline-variant text-label-md text-on-surface-variant">Tiger Eye</span>
+<span class="px-4 py-1.5 bg-surface rounded-full border border-outline-variant text-label-md text-on-surface-variant">Amethyst</span>
+</div>
+<a class="inline-flex items-center justify-center gap-3 w-full py-5 bg-primary text-on-primary font-label-md rounded-full shadow-lg hover:shadow-2xl transition-all hover:-translate-y-1" href="https://wa.me/918306814934" target="_blank">
+<span class="material-symbols-outlined">shopping_cart</span>
+                                Order via WhatsApp
+                            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact/Inquiry Section -->
+<section class="py-32 relative overflow-hidden">
+<div class="absolute inset-0 z-0 bg-primary opacity-5"></div>
+<div class="max-w-container-max mx-auto px-margin-desktop relative z-10 text-center">
+<div class="max-w-3xl mx-auto space-y-12">
+<div class="space-y-4">
+<h2 class="font-display-lg text-display-lg text-on-surface">Begin Your Journey</h2>
+<p class="font-body-lg text-on-surface-variant">
+                            Whether you're looking for a personal piece or a thoughtful gift, we're here to help you select the perfect intention.
+                        </p>
+</div>
+<div class="grid md:grid-cols-2 gap-8">
+<div class="p-8 border border-outline-variant rounded-2xl hover:border-primary transition-colors text-left group">
+<div class="w-12 h-12 bg-primary-container rounded-lg flex items-center justify-center text-on-primary mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">chat</span>
+</div>
+<h3 class="font-headline-md text-on-surface mb-2">WhatsApp Inquiry</h3>
+<p class="font-body-md text-on-surface-variant mb-6">Quick chat for availability and custom designs.</p>
+<a class="text-primary font-label-md flex items-center gap-2" href="https://wa.me/918306814934" target="_blank">
+                                Connect Now <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="p-8 border border-outline-variant rounded-2xl hover:border-primary transition-colors text-left group">
+<div class="w-12 h-12 bg-secondary-container rounded-lg flex items-center justify-center text-on-secondary-container mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<h3 class="font-headline-md text-on-surface mb-2">Email Collaboration</h3>
+<p class="font-body-md text-on-surface-variant mb-6">For bulk orders or official inquiries.</p>
+<a class="text-primary font-label-md flex items-center gap-2" href="mailto:vasutube100@gmail.com">
+                                Send Mail <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Shell -->
+<footer class="bg-surface-container-lowest border-t border-outline-variant/20 py-20">
+<div class="max-w-container-max mx-auto px-margin-desktop flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
+<div class="space-y-6 max-w-sm">
+<div class="font-display-lg text-headline-md text-primary">Vasu Cool 🧿🌸</div>
+<p class="font-body-md text-on-surface-variant">
+                    Crafting artisanal stone bead bracelets that resonate with your inner self.
+                </p>
+</div>
+<div class="flex flex-col md:flex-row gap-12 md:gap-24">
+<div class="space-y-4">
+<h4 class="font-label-md text-on-surface uppercase tracking-widest">Connection</h4>
+<ul class="space-y-2">
+<li><a class="font-body-md text-on-secondary-fixed-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="https://wa.me/918306814934" target="_blank">WhatsApp: 8306814934</a></li>
+<li><a class="font-body-md text-on-secondary-fixed-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="mailto:vasutube100@gmail.com">Email: vasutube100@gmail.com</a></li>
+<li><a class="font-body-md text-on-secondary-fixed-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="https://instagram.com/iamvasu._" target="_blank">Instagram: @iamvasu._</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="font-label-md text-on-surface uppercase tracking-widest">Company</h4>
+<ul class="space-y-2">
+<li><a class="font-body-md text-on-secondary-fixed-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#handmade">About Us</a></li>
+<li><a class="font-body-md text-on-secondary-fixed-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#pricing">Price List</a></li>
+<li><a class="font-body-md text-on-secondary-fixed-variant hover:text-primary transition-colors opacity-80 hover:opacity-100" href="#">Shipping Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-margin-desktop mt-20 pt-8 border-t border-outline-variant/10 text-center md:text-left">
+<p class="font-body-md text-on-secondary-fixed-variant opacity-60">
+                © 2024 Vasu Cool Bracelet. Mindfully Crafted.
+            </p>
+</div>
+</footer>
+<!-- Mobile Navigation (Floating Bottom Bar) -->
+<div class="md:hidden fixed bottom-6 left-6 right-6 z-50 h-16 glass-card rounded-full flex items-center justify-around px-6 shadow-2xl">
+<a class="text-primary" href="#handmade"><span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">home</span></a>
+<a class="text-on-surface-variant" href="#stones"><span class="material-symbols-outlined">diamond</span></a>
+<a class="text-on-surface-variant" href="#pricing"><span class="material-symbols-outlined">payments</span></a>
+<a class="text-on-surface-variant" href="https://wa.me/918306814934" target="_blank"><span class="material-symbols-outlined">chat</span></a>
+</div>
+<script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Simple intersection observer for reveal animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-10');
+            observer.observe(section);
+        });
+    </script>
+</body></html>
